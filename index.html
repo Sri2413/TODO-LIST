@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+      
+       <div class="search">
+    <span>To-Do</span>&emsp13;
+    <input id="search1" type="search" placeholder="Search tasks">
+
+</div>
+  <div id="card">
+            <div class="text">
+      <input type="text" id="task" placeholder="Add your To-do Task...."  required>
+<br>
+<br>
+                <br>&emsp13;
+            <button id="addTask">Add Task</button>
+
+            </div>
+            
+            <div class="time">
+                <span class="cla">&#128197; Today </span> &emsp;<span class="tym">&#128337; Set time</span>
+
+            </div>
+
+
+            
+            <div class="cal">
+            <div class="calendar">
+               
+    <div class="controls">
+      <select id="yearSelect"></select>
+      <select id="monthSelect">
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April</option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July</option>
+        <option value="7">August</option>
+        <option value="8">September</option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December</option>
+      </select>
+    </div>
+    <div class="days">
+      <div class="day">Sun</div>
+      <div class="day">Mon</div>
+      <div class="day">Tue</div>
+      <div class="day">Wed</div>
+      <div class="day">Thu</div>
+      <div class="day">Fri</div>
+      <div class="day">Sat</div>
+    </div>
+    <div class="grid" id="calendarGrid"></div>
+  </div>
+            </div><br>
+      <div class="container1">
+
+        <div class="grid">
+          <select id="myselect">
+            
+              <option value="0">00</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">02</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+             <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+        </select>
+        <select id="min">
+          
+            <option value="00">00</option>
+            
+            <option value="05">05</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+            
+            <option value="55">55</option>
+            
+            <option value="60">60</option>
+        </select>
+        <select id="ampm">
+          
+       
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+        </select>
+
+        
+        </div>
+      </div>
+        </div>
+        
+            <div id="accordian"></div>
+ <div id="taskList"></div>
+
+        <div class="image">
+            <img src="image/image11.png" width="300px" height="300px">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
